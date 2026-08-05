@@ -1,0 +1,7 @@
+# The Patch Shepherd skill scripts (.agents/skills/patch-shepherd/scripts/pull_tenable_exposure_data.py
+# and .agents/skills/patch-shepherd/scripts/build_campaigns.py) are stdlib-only and have no
+# third-party dependencies.
+#
+# The templates under .agents/skills/tenable-api-builder/templates/ reference `requests`
+# and `pyTenable` in comments as scaffolding examples for a separate, internal dev tool; they
+# are not imported by the Patch Shepherd scripts above and are not required to run Patch Shepherd.

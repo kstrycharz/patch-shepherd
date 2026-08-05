@@ -1,0 +1,13 @@
+# Environment files
+.env
+*.env.local
+
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+
+# Data output files
+*.json
+*.csv
+Data/*.md
+!/skills/
